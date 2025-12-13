@@ -3,9 +3,9 @@ package com.ridehub.booking.service;
 import com.ridehub.booking.domain.Booking;
 import com.ridehub.booking.domain.enumeration.BookingStatus;
 import com.ridehub.booking.repository.BookingRepository;
-import com.ridehub.msroute.client.api.SeatLockResourceMsrouteApi;
-import com.ridehub.msroute.client.model.SeatLockActionRequestDTO;
-import com.ridehub.msroute.client.model.SeatLockActionResponseDTO;
+import com.ridehub.feign.msroute.client.api.SeatLockResourceMsrouteApi;
+import com.ridehub.feign.msroute.client.model.SeatLockActionRequestDTO;
+import com.ridehub.feign.msroute.client.model.SeatLockActionResponseDTO;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

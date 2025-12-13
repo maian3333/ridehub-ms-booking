@@ -2,8 +2,8 @@
 package com.ridehub.booking.service;
 
 import com.ridehub.booking.service.dto.*;
-import com.ridehub.mspromotion.client.model.BuyNGetMFreeDTO;
-import com.ridehub.mspromotion.client.model.PromotionDetailDTO;
+import com.ridehub.feign.mspromotion.client.model.BuyNGetMFreeDTO;
+import com.ridehub.feign.mspromotion.client.model.PromotionDetailDTO;
 
 import java.math.BigDecimal;
 import java.time.*;
